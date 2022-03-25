@@ -1,0 +1,51 @@
+/* цвет текста заглавия #212121 */
+/* цвет текста кнопки #FFFFFF */
+/* цвет текста основной #757575 */
+/* цвет текста выделения #2196F3 */
+/* цвет фона основной #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+/* цвет фона футер #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hero-text-color: #ffffff;
+  --acent-color: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+ul {
+  list-style: none;
+}
+
+/* Cтили первой страницы */
+.logo-blue {
+  color: var(--acent-color);
+}
+.logo-black {
+  color: var(--title-text-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--hero-text-color);
+}
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+/* навигация */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
+}
+/* все заголовки */
+
+.section-title {
+  color: var(--title-text-color);
+}
+/* наша команда */
+.team-title {
+  color: var(--title-text-color);
+}
