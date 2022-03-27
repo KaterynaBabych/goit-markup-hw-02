@@ -16,23 +16,47 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
 }
 ul {
   list-style: none;
+}
+address {
+  font: inherit;
 }
 
 /* Cтили  страницы index.html*/
 .logo-blue {
   color: var(--acent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
 }
 .logo-black {
   color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
 }
 /* Hero */
 .hero-title {
   color: var(--hero-text-color);
+  background-color: #757575;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: Center;
 }
 /* site nav */
+.site-nav.list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -40,6 +64,12 @@ ul {
   color: var(--acent-color);
 }
 /* навигация */
+.contacts-nav.list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--acent-color);
@@ -47,6 +77,9 @@ ul {
 /* Контакты */
 .mail {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .mail:hover,
 .mail:focus {
@@ -54,6 +87,9 @@ ul {
 }
 .tel {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .tel:hover,
 .tel:focus {
@@ -61,6 +97,10 @@ ul {
 }
 .adress {
   color: var(--hero-text-color);
+  background-color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .adress:hover,
 .adress:focus {
@@ -69,28 +109,54 @@ ul {
 /* все заголовки */
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 /* Особенности */
 .qualite-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 /* наша команда */
 .team-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
 }
 /* кнопка */
 .button-hero {
   color: #ffffff;
   background-color: #2196f3;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 /* portfolio.html */
 /* Кнопки фильтры */
-.button .filter {
+.button-navigation .filter {
+  font-family: Roboto. sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.button-navigation .filter {
   color: var(--title-text-color);
   background-color: var(--button-fon-color);
 }
-.button .filter:hover,
-.button .filter:focus {
+.button-navigation .filter:hover,
+.button-navigation .filter:focus {
   color: var(--hero-text-color);
   background-color: var(--acent-color);
 }
