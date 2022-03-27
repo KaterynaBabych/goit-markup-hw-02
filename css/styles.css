@@ -11,6 +11,7 @@
   --title-text-color: #212121;
   --hero-text-color: #ffffff;
   --acent-color: #2196f3;
+  --button-fon-color: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -20,7 +21,7 @@ ul {
   list-style: none;
 }
 
-/* Cтили первой страницы */
+/* Cтили  страницы index.html*/
 .logo-blue {
   color: var(--acent-color);
 }
@@ -35,17 +36,65 @@ ul {
 .site-nav .link {
   color: var(--title-text-color);
 }
+.site-nav .link.current {
+  color: var(--acent-color);
+}
 /* навигация */
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--acent-color);
 }
+/* Контакты */
+.mail {
+  color: var(--primary-text-color);
+}
+.mail:hover,
+.mail:focus {
+  color: var(--acent-color);
+}
+.tel {
+  color: var(--primary-text-color);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--acent-color);
+}
+.adress {
+  color: var(--hero-text-color);
+}
+.adress:hover,
+.adress:focus {
+  color: var(--acent-color);
+}
 /* все заголовки */
-
 .section-title {
+  color: var(--title-text-color);
+}
+/* Особенности */
+.qualite-title {
   color: var(--title-text-color);
 }
 /* наша команда */
 .team-title {
+  color: var(--title-text-color);
+}
+/* кнопка */
+.button-hero {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* portfolio.html */
+/* Кнопки фильтры */
+.button .filter {
+  color: var(--title-text-color);
+  background-color: var(--button-fon-color);
+}
+.button .filter:hover,
+.button .filter:focus {
+  color: var(--hero-text-color);
+  background-color: var(--acent-color);
+}
+/* Портфолио */
+.portfolio .title {
   color: var(--title-text-color);
 }
