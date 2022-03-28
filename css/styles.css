@@ -47,9 +47,12 @@ address {
   line-height: 1.38;
 }
 /* Hero */
+.hero {
+  text-align: center;
+  background-color: #2f303a;
+}
 .hero-title {
   color: var(--hero-text-color);
-  background-color: #757575;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -159,6 +162,9 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+}
+.button-navigation {
   text-align: center;
 }
 .button-navigation .filter {
